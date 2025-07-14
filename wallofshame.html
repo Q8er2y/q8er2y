@@ -28,5 +28,9 @@
             <img src="button.img"/>
         </button>
     </form>
+  <script type="text/javascript">
+    document.getElementById("wallofshame").onclick = function () {
+            <?PHP echo shell_exec("python counter.py");?>
+    };
 </body>
 </html>
